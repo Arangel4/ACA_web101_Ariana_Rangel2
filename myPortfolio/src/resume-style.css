@@ -1,3 +1,30 @@
-h1{
-    color: aquamarine;
+body{
+    background-color: rgb(53, 54, 54);
+}
+
+header{
+    padding-top: 5%;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main{
+    width: 60%;
+    margin: 5% auto;
+    background: white;
+}
+
+p{
+    text-align: center;
+}
+
+article{
+    margin: 1% auto;
+    width: 80%;
+    text-align: left;
+}
+
+p1{
+    
 }
