@@ -15,18 +15,16 @@ main{
     background: white;
 }
 
-p{
-    text-align: center;
-}
-
 article{
     margin: 1% auto;
     width: 80%;
     text-align: left;
 }
 
-@media (min-width: 600px) {
-    .column {
-      color: blue;
-    }
-  }
+.info{
+    text-align: center;
+}
+
+.accentcolor{
+    color: lightgreen;
+}

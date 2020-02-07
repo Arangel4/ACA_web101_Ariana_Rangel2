@@ -1,0 +1,15 @@
+@media (min-width: 576px) {
+    .column {
+      color: blue;
+    }
+
+
+  }
+
+@media (min-width: 768px) {
+  .column {
+    color: green;
+  }
+
+
+}

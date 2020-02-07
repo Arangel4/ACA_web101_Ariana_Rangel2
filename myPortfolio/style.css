@@ -100,8 +100,4 @@ body {
     font-style: italic;
   }
 
-  @media (min-width: 600px) {
-    .column {
-      color: blue;
-    }
-  }
+ 
