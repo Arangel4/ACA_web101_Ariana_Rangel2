@@ -99,3 +99,9 @@ body {
     letter-spacing: 20px;
     font-style: italic;
   }
+
+  @media (min-width: 600px) {
+    .column {
+      color: blue;
+    }
+  }

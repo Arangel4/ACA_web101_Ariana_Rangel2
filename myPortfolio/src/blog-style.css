@@ -32,3 +32,9 @@ article:hover{
 article:hover > h3{
     color:#1940A9;
 }
+
+@media (min-width: 600px) {
+    .column {
+      color: blue;
+    }
+  }

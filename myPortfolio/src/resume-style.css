@@ -25,3 +25,8 @@ article{
     text-align: left;
 }
 
+@media (min-width: 600px) {
+    .column {
+      color: blue;
+    }
+  }
