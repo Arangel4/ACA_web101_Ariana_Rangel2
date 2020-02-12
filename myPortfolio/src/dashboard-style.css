@@ -1,0 +1,53 @@
+body{
+    background-color: lightyellow;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .big {
+    height: 250px;
+    padding: 10px;
+  }
+
+  .display{
+    width: 150px;
+    height: 65px;
+    background-color: white;
+}
+  
+  .small {
+    height: 35px;
+  }
+
+  p{
+      text-align: center;
+  }
+  
+  .big:nth-child(even) {
+    background-color: gray;
+  }
+  
+  .big:nth-child(odd) {
+    background-color: black;
+  }
+  
+  .small:nth-child(even) {
+    background-color: white;
+  }
+  
+  .small:nth-child(odd) {
+    background-color: white;
+  }
