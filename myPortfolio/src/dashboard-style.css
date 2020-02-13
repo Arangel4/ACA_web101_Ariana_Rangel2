@@ -1,5 +1,5 @@
 body{
-    background-color: lightyellow;
+    background-color: lightgray;
 }
 
 h1{
@@ -7,47 +7,68 @@ h1{
     text-align: center;
 }
 
+.greeting{
+  height: 100px;
+  text-align: left;
+}
+
 h3{
     text-align: center;
 }
 
+/* The grid for the entire page below the horizontal break. */
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-  }
-  
-  .big {
-    height: 250px;
-    padding: 10px;
-  }
-
-  .display{
-    width: 150px;
-    height: 65px;
-    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
 }
-  
-  .small {
-    height: 35px;
-  }
 
-  p{
-      text-align: center;
-  }
+/* Calc widget. */
+.calbig {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color: blue;
+  height: 350px;
+}
+
+button{
+  text-align: center;
+  margin: 3px;
+}
+
+/* ToDo list widget. */
+.todobig{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25% 25% 25% 25%;
+  background-color: pink;
+  height: 400px;
+}
+
+.input{
+  margin: 3px;
+  background-color: white;
+}
+
+.todo{
+  height: 50px;
+  width: 50px;
+}
+
+/* Clock and Calendar widget. */
+.clockbig{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: 50% 50%;
+  background-color: greenyellow;
+  height: 200px;
+  width: 250px;
+  padding: 10px;
+}
+
+h2{
+  text-align: center;
+}
+
+
   
-  .big:nth-child(even) {
-    background-color: gray;
-  }
-  
-  .big:nth-child(odd) {
-    background-color: black;
-  }
-  
-  .small:nth-child(even) {
-    background-color: white;
-  }
-  
-  .small:nth-child(odd) {
-    background-color: white;
-  }
