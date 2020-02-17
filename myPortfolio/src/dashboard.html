@@ -11,50 +11,69 @@
     <h1>Dashboard</h1>
 
     <div class="greeting">
-      <p class="greeting"><b>GREETINGS... </b>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+      <p class="greeting"><b>Greetings welcome to my dashboard! </b>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
     </div>
     <hr>
     <br>
     <div class="grid">
-      <div class="calbig">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>/</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>*</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>-</button>
-        <button>0</button>
-        <button>.</button>
-        <button>+</button>
-        <button>=</button>
+      <div id="calculator">
+        <div id="calcTop"></div>
+        <div id="calcBody">
+          <div id="branding">
+            <br>
+            <h3>Calculator</h3>
+          </div>
+          <div id="screen">
+            <p>0</p>
+          </div>
+          <div id="buttonPad">
+            <button id="ca">CA</button>
+            <button id="ce">CE</button>
+            <button id="percent">%</button>
+            <button id="divide">/</button>
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="times">x</button>
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="minus">-</button>
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="plus">+</button>
+            <button id="0">0</button>
+            <button id="decimal">.</button>
+            <button id="equals">=</button>
+          </div>
+        </div>
+        <div id="calcBottom"></div>
       </div>
     
-      <div class="todobig">
-        <h3>ToDo</h3>
-        <ul>
-            <li>
-                Take dogs to the dog park.
-            </li>
-            <li>
-                Grocery Shopping for next week.
-            </li>
-            <li>
-                Make dinner before 7:00pm.
-            </li>
-        </ul>
-        <div class="input"></div>
-        <button class="todo"><p>ADD</p></button>
-      </div>
+
+
+      <div class="header">
+        <h2>My To Do List</h2>
+        <input type="text">
+        <span onclick="newElement()" class="addBtn">Add</span>
+        <br>
+        <br>
+      <ul>
+        <li>Take dogs to the dog park.</li>
+        <li>Go grocery shopping.</li>
+        <li>Make dinner before 7:00pm.</li>
+        <li>Finish homework.</li>
+        <li>Pay rent, phone bill, water bill, electric bill, and gas bill.</li>
+      </ul>
+    </div>
+
+    
+
     
       <div class="clockbig">
-      <h2>1:55:14 PM</h2>
-      <h2>Friday, April 10, 2020</h2>
+      <h2 class="inset">1:55:14 PM <br>
+      Friday, April 10, 2020</h2>
       </div>
     </div>
   </body>

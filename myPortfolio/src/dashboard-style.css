@@ -20,54 +20,151 @@ h3{
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 200px;
 }
 
 /* Calc widget. */
-.calbig {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  background-color: blue;
-  height: 350px;
+
+#calcTop {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
 }
 
-button{
+#calcBottom {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+#calcBody {
+  background-color: lightsteelblue;
+  height: 400px;
+  width: 300px;
+  margin: auto;
+}
+
+h3, #screen {
+  font-family: 'Glegoo', Serif;
+}
+
+h3 {
+  margin: 0px 40px 10px 40px;
+  color: black; 
+  font-size: 0.8em;
+  font-weight: 300;
+  text-align: center;
+}
+
+#screen {
+  margin: 20px 40px 20px 40px;
+  height: 35px;
+  background: white;
+  border-radius: 3px;
+}
+
+#screen p {
+  position: relative;
+  top: 5px;
+  margin: 7px;
+  text-align: right;
+  font-size: 1.4em;
+  overflow: hidden;
+
+}
+
+#buttonPad {
+  width: 240px;
+  margin: auto;
+}
+
+button {
+  height: 35px;
+  width: 50px;
+  border-radius: 3px;
+  font-size: 1.1em;
   text-align: center;
   margin: 3px;
 }
 
+#equals{
+  width: 110px;
+}
+
+
+
+
+
 /* ToDo list widget. */
-.todobig{
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 25% 25% 25% 25%;
-  background-color: pink;
-  height: 400px;
+* {
+  box-sizing: border-box;
 }
 
-.input{
-  margin: 3px;
-  background-color: white;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.todo{
-  height: 50px;
-  width: 50px;
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  font-size: 18px;
+  text-align: left;
 }
+
+.header {
+  background-color: lightsteelblue;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+
+
+
 
 /* Clock and Calendar widget. */
 .clockbig{
   display: grid;
   grid-template-columns: repeat(1,1fr);
   grid-template-rows: 50% 50%;
-  background-color: greenyellow;
-  height: 200px;
-  width: 250px;
-  padding: 10px;
+  background-color: lightsteelblue;
+  height: 150px;
+  width: 350px;
+  padding: 60px 15px 30px 15px;
+  align-content: center;
+}
+
+h2.inset{
+  border-style: inset;
+  align-self: center;
 }
 
 h2{
   text-align: center;
+  color: white;
+  font-size: 2em;
 }
 
 
