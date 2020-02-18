@@ -84,6 +84,10 @@ button {
   font-size: 1.1em;
   text-align: center;
   margin: 3px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100;
 }
 
 #equals{
