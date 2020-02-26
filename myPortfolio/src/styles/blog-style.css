@@ -2,10 +2,11 @@ h1{
     width: 60%;
     margin: 5% auto;
     text-align: center;
+    font-family:fantasy;
 }
 
 body{
-    background: lightskyblue;
+    background: lightsteelblue;
 }
 
 main{
@@ -15,6 +16,8 @@ main{
 }
 
 article{
+    font-family: cursive;
+    font-weight: lighter;
     margin: 1% auto;
     border: solid grey 2px;
     width: 60%;
@@ -22,11 +25,13 @@ article{
 }
 
 article > h3{
+    font-family: cursive;
+    font-weight: bold;
     font-size: 2em;
 }
 
 article:hover{
-    background: lightpink;
+    background: beige;
 }
 
 article:hover > h3{
