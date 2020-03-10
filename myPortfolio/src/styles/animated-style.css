@@ -1,0 +1,112 @@
+@media(min-width: 500px)
+{
+    body{
+        background-image: url(/myPortfolio/src/images/paris.jpg);
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li{
+        float: right;
+    }
+
+    li a{
+        display: block;
+        margin-right: 10px;
+        padding: 8px;
+        font-size: 1em;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+    }
+
+
+
+    .button{
+        background-color: gold;
+        color: black;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 15px 32px;
+        cursor: pointer;
+        font-family: cursive;
+    }
+
+    .menu{
+        animation-duration: 3s;
+        animation-delay: 0s;
+    }
+
+    .name{
+        animation-duration: 3s;
+        animation-delay: 0s;
+    }
+    @keyframes animated {
+        from {background-color: black;}
+    }
+}
+
+@media(min-width: 900px)
+{
+    body{
+        background-image: url(/myPortfolio/src/images/paris.jpg);
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li{
+        float: right;
+    }
+
+    li a{
+        display: block;
+        margin-right: 10px;
+        padding: 8px;
+        font-size: 1em;
+        color: wheat;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+    }
+
+    .button{
+        background-color: gold;
+        color: black;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 15px 32px;
+        cursor: pointer;
+        font-family: cursive; 
+    }
+
+    .menu{
+        animation-duration: 3s;
+        animation-delay: 0s;
+    }
+
+    .name{
+        animation-duration: 3s;
+        animation-delay: 0s;
+    }
+}
