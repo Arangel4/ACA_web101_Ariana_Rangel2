@@ -1,0 +1,197 @@
+@media(min-width: 500px)
+{
+    body{
+        background-color: rgba(8, 6, 85, 0.808);
+        margin: 0;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li{
+        float: right;
+    }
+
+    li a{
+        display: block;
+        margin-right: 10px;
+        padding: 8px;
+        font-size: big;
+        color: wheat;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    h2{
+        color: wheat;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    p{
+        text-align: center;
+        color: wheat;
+        font-size: 3em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .container{
+        width: 70%;
+        margin: 5% auto;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 1%;
+    }
+
+    .row{
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    input[type=text], select, textarea{
+        width: 95%;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    label{
+        color: white;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+    
+
+    input[type=submit]{
+        background-color: rgba(0, 0, 0, 0.808);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    input[type=submit]:hover{
+        background-color: #535553;
+        font-style: italic;
+    }
+
+    .column1{
+        float: left;
+        width: 20%;
+        margin-top: 10px;
+    }
+
+    .column2{
+        float: left;
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+
+
+@media(min-width: 996px)
+{
+    body{
+        background-color: rgba(8, 6, 85, 0.808);
+        margin: 0;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li{
+        float: right;
+    }
+
+    li a{
+        display: block;
+        margin-right: 10px;
+        padding: 8px;
+        font-size: big;
+        color: wheat;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    h2{
+        color: wheat;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    p{
+        text-align: center;
+        color: wheat;
+        font-size: 3em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .container{
+        width: 70%;
+        margin: 5% auto;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 1%;
+    }
+
+    .row{
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    input[type=text], select, textarea{
+        width: 95%;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    label{
+        color: white;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+    
+
+    input[type=submit]{
+        background-color: rgba(0, 0, 0, 0.808);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    input[type=submit]:hover{
+        background-color: #535553;
+        font-style: italic;
+    }
+
+    .column1{
+        float: left;
+        width: 20%;
+        margin-top: 10px;
+    }
+
+    .column2{
+        float: left;
+        width: 80%;
+        margin-top: 10px;
+    }
+}
