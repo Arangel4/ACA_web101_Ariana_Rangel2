@@ -1,0 +1,114 @@
+body{
+    background-color: white;
+    display: block;
+}
+
+.movingSquare{
+    width: 50px;
+    height: 830px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.square1{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: darkred;
+    animation-name: squareOdd;
+}
+
+.square2{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: red;
+    animation-name: squareEven;
+}
+
+.square3{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: orangered;
+    animation-name: squareOdd;
+}
+
+.square4{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: yellow;
+    animation-name: squareEven;
+}
+
+.square5{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: yellowgreen;
+    animation-name: squareOdd;
+}
+
+.square6{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: green;
+    animation-name: squareEven;
+}
+
+.square7{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: seagreen;
+    animation-name: squareOdd;
+}
+
+.square8{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: blue;
+    animation-name: squareEven;
+}
+
+.square9{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: blueviolet;
+    animation-name: squareOdd;
+}
+
+.square10{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: darkviolet;
+    animation-name: squareEven;
+}
+
+.square11{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: purple;
+    animation-name: squareOdd;
+}
+
+.square12{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: black;
+    animation-name: squareEven;
+}
+
+/* Use for little squares:
+animation: 3s ease-in 1s both running slidein;
+ */
+
+ /* Use for big squares:
+ animation: 3s linear 1s running slidein; */
