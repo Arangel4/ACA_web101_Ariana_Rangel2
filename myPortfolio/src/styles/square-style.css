@@ -103,12 +103,18 @@ body{
     height: 50px;
     margin-top: 21px;
     background-color: black;
-    animation-name: squareEven;
+
+    
 }
 
-/* Use for little squares:
-animation: 3s ease-in 1s both running slidein;
- */
+.movingSquare:hover .squareOdd{
+    transform: scale(2);
+    animation: move 5s ease-in-out;
+    animation-timing-function: linear;
+}
 
- /* Use for big squares:
- animation: 3s linear 1s running slidein; */
+.movingSquare:hover .squareEven{
+    transform: scale(0.5);
+    animation: move 5s ease-in-out;
+    animation-timing-function: linear;
+}
