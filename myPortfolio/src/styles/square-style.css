@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+
+}
+
+.movingSquare{
+    width: 50px;
+    height: 830px;
+    margin-left: 50%;
+    margin-right: 50%;
+
+}
+
+.square1{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: darkred;
+}
+
+.square2{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: red;
+}
+
+.square3{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: orangered;
+}
+
+.square4{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: yellow;
+}
+
+.square5{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: yellowgreen;
+}
+
+.square6{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: green;
+}
+
+.square7{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: seagreen;
+}
+
+.square8{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: blue;
+}
+
+.square9{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: blueviolet;
+}
+
+.square10{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: darkviolet;
+}
+
+.square11{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: purple;
+}
+
+.square12{
+    width: 50px;
+    height: 50px;
+    margin-top: 21px;
+    background-color: black; 
+}
+
+.movingSquare:hover .squareOdd{
+    transition: 5s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transform: translate(400px) scale(2) rotate(360deg) ;
+}
+
+.movingSquare:hover .squareEven{
+    transition: 5s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transform: translate(-500px) rotate(-360deg) scale(.5);
+}
