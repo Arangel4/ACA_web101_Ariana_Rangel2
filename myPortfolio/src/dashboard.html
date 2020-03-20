@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Dashboard</h1>
+  <h1>Dashboard</h1>
     <div class="column">
     <div class="greeting">
       <p class="greeting"><b>Greetings welcome to my dashboard! </b>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
@@ -57,8 +57,10 @@
 
       <div class="header">
         <h2 class="h2todo">My To Do List</h2>
-        <input type="text">
-        <span class="addBtn">Add</span>
+        <form id="newItemForm">
+          <input type="text">
+          <input type="submit" class="addBtn" value="Add"/>
+      </form>
         <br>
         <br>
       <ul>
@@ -76,5 +78,9 @@
       </div>
     </div>  
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="/myPortfolio/src/dashboard.js"></script>
   </body>
 </html>
